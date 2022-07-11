@@ -24,8 +24,8 @@ const Main: React.FC<IProps> = ({ theme }) => {
     )
 
     return (
-        <div className="row main">
-            <Editor />
+        <div className="main row">
+            <Editor theme={theme} content={content} setContent={setContent} />
             <Preview />
         </div>
     )
