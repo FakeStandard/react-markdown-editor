@@ -4,7 +4,8 @@ import '../styles/footer.css'
 const Footer = () => {
     return (
         <footer className="footer">
-            footer
+            <span>{`</>`}</span>
+            <span> footer</span>
         </footer>
     )
 }

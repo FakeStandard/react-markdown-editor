@@ -1,2 +1,10 @@
 .footer {
+    padding: 16px 0px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    color: #f89541;
+    background: #000;
 }
