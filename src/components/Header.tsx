@@ -5,10 +5,10 @@ import { FaMoon } from 'react-icons/fa'
 
 interface IProps {
     theme: string
-    // toggleTheme: () => void
+    toggleTheme: () => void
 }
 
-const Header: React.FC<IProps> = ({ theme }) => {
+const Header: React.FC<IProps> = ({ theme, toggleTheme }) => {
     const headerStyle = `header ${theme}`
 
     return (
@@ -16,7 +16,7 @@ const Header: React.FC<IProps> = ({ theme }) => {
             <div className="header-title">
                 Markdown Editor
             </div>
-            <div className="header-content">
+            <div className="header-content" onClick={toggleTheme}>
                 {theme === 'dark' ? <FaMoon /> : <FiSun />}
             </div>
         </header>
