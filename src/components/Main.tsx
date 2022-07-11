@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import '../styles/main.css'
 import Editor from "./Editor";
 import Preview from "./Preview";
+import '../styles/shared/index.css'
 
 interface IProps {
     theme: string
@@ -23,10 +24,10 @@ const Main: React.FC<IProps> = ({ theme }) => {
     )
 
     return (
-        <main className="main">
+        <div className="row main">
             <Editor />
             <Preview />
-        </main>
+        </div>
     )
 }
 
