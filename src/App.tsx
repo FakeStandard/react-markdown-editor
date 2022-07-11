@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header theme='light' />
-      <Main />
+      <Main theme='dark' />
       <Footer />
     </div>
   );
