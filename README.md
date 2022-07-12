@@ -2,7 +2,11 @@
 
 :rocket: Technology：React with Typescript
 
-:fire: 核心構想：筆記時會使用到的 Markdown 如何呈現在 Web 上？是否有可以使用的 package 在 npm 上？最後在爬文中發現這是可以實現的！就來動手做一個編輯器吧！
+:fire: 核心構想：
+
+筆記時會使用到的 Markdown 如何呈現在 Web 上？是否有可以使用的 package？
+
+最後在爬文中發現這是可以實現的！就來動手做一個編輯器吧！
 
 :fire: 使用 React with Typescript 製作
 
