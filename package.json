@@ -10,6 +10,7 @@
     "@types/node": "^16.11.43",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
     "marked": "^4.0.18",
     "marked-react": "^1.1.2",
     "react": "^18.2.0",
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +46,9 @@
     ]
   },
   "devDependencies": {
-    "@types/marked": "^4.0.3"
-  }
+    "@types/marked": "^4.0.3",
+    "@types/node": "^16.11.41",
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://fakestandard.github.io/react-markdown-editor/"
 }
