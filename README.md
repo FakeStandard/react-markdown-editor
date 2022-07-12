@@ -16,3 +16,5 @@
 
 ### Reference
 [Creating a Markdown Editor in React.js & TypeScript with Deployment through Github Actions](https://dev.to/ashwamegh/creating-a-markdown-editor-in-react-js-typescript-with-deployment-through-github-actions-hfn)
+
+[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
