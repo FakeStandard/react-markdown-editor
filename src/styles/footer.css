@@ -7,7 +7,14 @@
     width: 100%;
     text-align: center;
     bottom: 0px;
-    color: #f89541;
     background: #000;
     vertical-align: middle;
+}
+
+.footer-dark {
+    color: #929603;
+}
+
+.footer-light {
+    color: #bd98d4;
 }

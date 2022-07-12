@@ -20,7 +20,7 @@ function App() {
     <div className="App" style={themeStyle}>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Main theme={theme} />
-      <Footer />
+      <Footer theme={theme}/>
     </div>
   );
 }
