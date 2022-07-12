@@ -1,4 +1,3 @@
-// import Markdown from "marked-react";
 import React from "react";
 import '../styles/preview.css'
 import { marked } from 'marked';
@@ -11,12 +10,14 @@ interface IProps {
 
 const Preview: React.FC<IProps> = ({ theme, content }) => {
     const styles = `content content-${theme}`
-    const formattedContent = marked.parseInline(content)
+    const formattedContent = marked.parse(content)
 
     return (
         <div className="preview column">
             <h2>Preview</h2>
-            <div className={styles} dangerouslySetInnerHTML={{ __html: formattedContent }} />
+            <div
+                className={styles}
+                dangerouslySetInnerHTML={{ __html: formattedContent }} />
         </div>
     )
 }
