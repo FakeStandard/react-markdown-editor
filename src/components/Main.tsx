@@ -9,16 +9,31 @@ interface IProps {
 }
 
 const Main: React.FC<IProps> = ({ theme }) => {
-    const [content, setContent] = useState<string>(`
-# H1
+    const [content, setContent] = useState<string>(
+        `# H1
 ## H2
 ### H3
 #### H4
 ##### H5
-        
-__bold__
-**bold**
-_italic_`
+###### H6
+
+**bold text**
+__bold text__
+
+*italicized text*
+_italic text_
+
+---
+
+1. First item
+2. Second item
+3. Third item
+
+- First item
+- Second item
+- Third item
+`
+
     )
 
     return (

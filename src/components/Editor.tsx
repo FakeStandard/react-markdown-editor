@@ -11,7 +11,7 @@ interface IProps {
 const Editor: React.FC<IProps> = ({ theme, content, setContent }) => {
     return (
         <div className="editor column">
-            <h2>Editor</h2>
+            <h2 className="h2">Editor</h2>
             <textarea
                 className={theme}
                 rows={9}

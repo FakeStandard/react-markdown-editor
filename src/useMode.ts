@@ -15,7 +15,7 @@ const useMode = () => {
 
     useEffect(() => {
         const localTheme = localStorage.getItem('theme')
-        console.log(localTheme)
+        
         if (localTheme) {
             setTheme(localTheme)
         }
