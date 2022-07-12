@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const Header: React.FC<IProps> = ({ theme, toggleTheme }) => {
-    const headerStyle = `header ${theme}`
+    const headerStyle = `header header-${theme}`
 
     return (
         <header className={headerStyle}>

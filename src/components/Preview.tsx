@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const Preview: React.FC<IProps> = ({ theme, content }) => {
-    const styles = `content content-${theme}`
+    const styles = `content ${theme}`
     const formattedContent = marked.parse(content)
 
     return (
