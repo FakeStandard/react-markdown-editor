@@ -15,6 +15,14 @@
 :pushpin: 2022/7/12 完成 Preview function 和樣式調整
 
 ### Reference
-[Creating a Markdown Editor in React.js & TypeScript with Deployment through Github Actions](https://dev.to/ashwamegh/creating-a-markdown-editor-in-react-js-typescript-with-deployment-through-github-actions-hfn)
-
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+[react-icons](https://react-icons.github.io/react-icons/icons?name=fi)
+
+[npm - Marked](https://www.npmjs.com/package/marked)
+
+[Marked Documentation](https://marked.js.org)
+
+[Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
+
+[Creating a Markdown Editor in React.js & TypeScript with Deployment through Github Actions](https://dev.to/ashwamegh/creating-a-markdown-editor-in-react-js-typescript-with-deployment-through-github-actions-hfn)
