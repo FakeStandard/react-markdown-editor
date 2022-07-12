@@ -9,11 +9,13 @@ interface IProps {
 }
 
 const Editor: React.FC<IProps> = ({ theme, content, setContent }) => {
+    const style = `textarea-${theme}`
+    
     return (
         <div className="editor column">
             <h2>Editor</h2>
             <textarea
-                className={theme}
+                className={style}
                 rows={9}
                 value={content}
                 onChange={(e) => setContent(e.target.value)} />

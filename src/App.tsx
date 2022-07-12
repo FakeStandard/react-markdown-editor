@@ -7,9 +7,9 @@ import useMode from './useMode';
 
 function App() {
   const { theme, toggleTheme } = useMode()
-
+  
   const themeStyle = theme === 'dark' ? {
-    backgroundColor: '#171616',
+    backgroundColor: '#302f2f',
     color: '#fff'
   } : {
     backgroundColor: '#eee',
@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div className="App" style={themeStyle}>
-      <Header theme='light' toggleTheme={toggleTheme} />
-      <Main theme='dark' />
+      <Header theme={theme} toggleTheme={toggleTheme} />
+      <Main theme={theme} />
       <Footer />
     </div>
   );

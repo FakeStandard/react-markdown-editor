@@ -9,24 +9,22 @@ interface IProps {
 }
 
 const Main: React.FC<IProps> = ({ theme }) => {
-    const [content, setContent] = useState<string>(
-        `
-        # H1
-        ## H2
-        ### H3
-        #### H4
-        ##### H5
-
-        __bold__
-        **bold**
-        _italic_
-        `
+    const [content, setContent] = useState<string>(`
+# H1
+## H2
+### H3
+#### H4
+##### H5
+        
+__bold__
+**bold**
+_italic_`
     )
 
     return (
         <div className="main row">
             <Editor theme={theme} content={content} setContent={setContent} />
-            <Preview />
+            <Preview theme={theme} content={content} />
         </div>
     )
 }
